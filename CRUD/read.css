@@ -39,10 +39,10 @@
         width: 100px;
         height: 30px;
         color: white;
-        text-align: center;
+       
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-transform: uppercase;
-        padding-left: 160px;
+        
         letter-spacing: 3px;
         background-color: rgb(20, 120, 20);
     }
@@ -50,11 +50,18 @@
         height: 40px;
         text-align: center;
     }
-    button{
-        width: 50px;
+    #tdbutton{
+        display:block ;
+        border: none;
+    }
+    .button{
+        overflow: hidden;
+        flex: 1;
+        width: 10px;
         margin-top: 2px;
         margin-bottom: 2px;
-        height: 20px;
+        height: 10px;
+       
     }
     #b1{
         background-color: lightgreen;
