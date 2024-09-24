@@ -86,7 +86,7 @@ include 'connection.php';
 
 
 $id = $_GET['id'];
-echo $id;
+
 
 $sql = "SELECT * FROM student WHERE id = $id";
 $result = mysqli_query($conn, $sql) or die("Unable to run the query ");

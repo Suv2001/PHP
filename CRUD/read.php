@@ -61,7 +61,7 @@
                         <td><?php echo $row['phone']; ?></td>
                         <td id="tdbutton">
                             <a class="button" href="update.php? id=<?php echo $row['id']; ?>" >Edit</a>
-                            <a class="button"  href="">Delete</a>
+                            <a class="button"  href="delete.php? roll=<?php echo $row['roll'];?>">Delete</a>
 
                         </td>
                        
